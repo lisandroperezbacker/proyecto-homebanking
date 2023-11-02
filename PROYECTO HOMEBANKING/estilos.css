@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #11c0cc;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #1ab8c4;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+#servicios img {
+    max-width: 70%; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin: 10px 0; 
+}
+
+
+#contacto img {
+    max-width: 50%; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+}
+
+#presentacion {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+#presentacion h1 {
+    font-size: 36px;
+    color: #333;
+}
+a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+#presentacion p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+#presentacion img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para servicios.html */
+#servicios {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#servicios h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#servicios ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#servicios li {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilos para contacto.html */
+#contacto {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contacto h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#contacto p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+#contacto address {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Estilos para formulario_inscripcion.html */
+#signup-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#signup-form h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#signup-form label {
+    font-size: 18px;
+    color: #666;
+    display: block;
+    margin: 10px 0;
+}
+
+#signup-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#signup-form button {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signup-form button:hover {
+    background-color: #005a8b;
+}
+
